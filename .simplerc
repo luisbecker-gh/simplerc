@@ -9,4 +9,23 @@ alias ..='cd ..'
 alias duh='du -h -1'
 aloas c='clear'
 
+# Git
+aloas gs='git status'
+alias gc='git commit -m'
+alias gca='git commit --amend'
+alias gaa='git add --all'
+alias gap='git add -p'
+alias gds='git diff --staged'
+alias gdw='git diff --word-diff'
+alias gr='git restore'
+alias grs='git restore --staged'
+alias gras='git restore * --staged'
+alias glo='git log --reverse -n 20 --pretty=format:"%h [%ad] %C(auto)%d %s %C(cyan)<%an>" --decorate --date=format:"%Y-%m-%d"'
+alias glg='git log --oneline --graph --all'
+alias gsfile='git show --pretty="" --name-only'
+alias gsf='git show --pretty="" --name-only'
+alias grv='git remote -v'
+alias gru='git remote update'
+alias gri='git rebase -i HEAD~10'
+
 echo "simplerc 🎈"
