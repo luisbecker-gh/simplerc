@@ -7,7 +7,7 @@ alias ll='ls -alt'
 alias grep='grep --color=auto'
 alias ..='cd ..'
 alias duh='du -h -1'
-aloas c='clear'
+alias c='clear'
 
 # Git
 aloas gs='git status'
