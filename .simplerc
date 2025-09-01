@@ -28,4 +28,6 @@ alias grv='git remote -v'
 alias gru='git remote update'
 alias gri='git rebase -i HEAD~10'
 
+
+# End
 echo "simplerc 🎈"
