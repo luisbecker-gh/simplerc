@@ -6,5 +6,7 @@ export PS1='[\u@\h:\w]\$ '
 alias ll='ls -alt'
 alias grep='grep --color=auto'
 alias ..='cd ..'
+alias duh='du -h -1'
+aloas c='clear'
 
 echo "simplerc 🎈"
