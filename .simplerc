@@ -10,7 +10,7 @@ alias duh='du -h -1'
 alias c='clear'
 
 # Git
-aloas gs='git status'
+alias gs='git status'
 alias gc='git commit -m'
 alias gca='git commit --amend'
 alias gaa='git add --all'
